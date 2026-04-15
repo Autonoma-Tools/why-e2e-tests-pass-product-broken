@@ -1,0 +1,20 @@
+{
+  "name": "why-e2e-tests-pass-product-broken",
+  "version": "0.1.0",
+  "description": "Companion code for the Autonoma blog post 'Why Your E2E Tests Pass but Your Product Is Broken'",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test:list": "npx playwright test --list",
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
